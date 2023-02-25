@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_APP_VUE_LOCAL,
+    baseURL: import.meta.env.VITE_APP_VUE_PRODUCTION,
 });
 
 export default api;
